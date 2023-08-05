@@ -20,8 +20,8 @@ O EduPlan é um sistema de assistência à construção de planos de estudos per
 
 
 ## 👨‍🎓 Autores 
-- Gabrielle Almeida (gao2@cin.ufpe.br) - [https://github.com/GabrielleAlmeida12]
+- Gabrielle Almeida (gao2@cin.ufpe.br) - [github](https://github.com/GabrielleAlmeida12)
 - Guilherme Pessoa (gcpr@cin.ufpe.br) -
 - Gustavo Queque (grq@cin.ufpe.br) -  
 - Newton Neto (ncrn@cin.ufpe.br) -
-- Pauline Duarte (pvad@cin.ufpe.br) - [https://github.com/PaulineDuarte]
+- Pauline Duarte (pvad@cin.ufpe.br) - [github](https://github.com/PaulineDuarte)
