@@ -1,5 +1,6 @@
 # Edu Plan
 
+## O Projeto faz parte da avaliação principal da **IF977- Engenharia de Software**
 ## Descrição:
 O EduPlan é um sistema de assistência à construção de planos de estudos personalizados e interativos. Ele foi desenvolvido para auxiliar estudantes em diferentes níveis educacionais a criar planos de estudos adaptados às suas necessidades individuais, metas de aprendizado e estilo de aprendizagem, Através de uma plataforma intuitiva, os usuários podem definir seus objetivos, identificar suas habilidades e receber recomendações personalizadas de cursos e materiais educacionais relevantes. Com o EduPlan, os estudantes podem acompanhar seu progresso, interagir com outros estudantes e mentores e se envolver em um ambiente gamificado que torna o processo de aprendizado mais atraente e motivador. O EduPlan visa capacitar os estudantes a alcançarem seu potencial máximo de aprendizado e sucesso acadêmico, proporcionando-lhes uma ferramenta poderosa para aprimorar suas habilidades e conhecimentos de maneira eficiente e eficaz.
 ## Características que podem ser incluídas no sistema:
