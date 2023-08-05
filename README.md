@@ -11,3 +11,17 @@ O EduPlan é um sistema de assistência à construção de planos de estudos per
 #### FLEXIBILIDADE E ADAPTAÇÃO: O sistema deve ser flexível para se adaptar às mudanças nas metas e preferências do estudante. A medida que novos objetivos são definidos ou habilidades são adquiridas, o plano de estudos pode ser ajustado dinamicamente.
 #### GAMIFICAÇÃO: Elementos de gamificação, como recompensas, níveis e conquistas, podem ser incorporados para tornar o processo de estudo mais envolvente e motivador.
 #### NOTIFICAÇÃO E LEMBRETES: O sistema pode enviar notificações e lembretes para incentivar o estudante a manter o foco no plano de estudos, acompanhando o progresso e cumprindo prazos.
+
+
+## Ferramentas utilizadas 
+
+## Professor Responsável
+  [Vinicius Cardoso Garcia](https://viniciusgarcia.me/) (vcg@cin.ufpe.br)
+
+
+##👨‍🎓 Autores 
+- Gabrielle Almeida (gao2@cin.ufpe.br) - [https://github.com/GabrielleAlmeida12]
+- Guilherme Pessoa (gcpr@cin.ufpe.br) -
+- Gustavo Queque (grq@cin.ufpe.br) -  
+- Newton Neto (ncrn@cin.ufpe.br) -
+- Pauline Duarte (pvad@cin.ufpe.br) - [https://github.com/PaulineDuarte]
