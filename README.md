@@ -19,7 +19,7 @@ O EduPlan é um sistema de assistência à construção de planos de estudos per
   [Vinicius Cardoso Garcia](https://viniciusgarcia.me/) (vcg@cin.ufpe.br)
 
 
-##👨‍🎓 Autores 
+## 👨‍🎓 Autores 
 - Gabrielle Almeida (gao2@cin.ufpe.br) - [https://github.com/GabrielleAlmeida12]
 - Guilherme Pessoa (gcpr@cin.ufpe.br) -
 - Gustavo Queque (grq@cin.ufpe.br) -  
