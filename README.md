@@ -22,12 +22,10 @@ Elementos de gamificação, como recompensas, níveis e conquistas, podem ser in
 O sistema pode enviar notificações e lembretes para incentivar o estudante a manter o foco no plano de estudos, acompanhando o progresso e cumprindo prazos.
 
 
-## &#x1F4C3; Mockup Lo-Fi :
-- Utilizamos o Miro para a criação do Mockup
 
-<p align="center">
-<img width="650" height="400" src="/Engenharia-de-software/Assets/Mockup LoFi EduPlan.png">
-</p>
+## &#x1F4C3; Mockup Lo-Fi :
+Utilizamos o Miro para a criação do Mockup
+![Mockup LoFi EduPlan](https://github.com/GabrielleAlmeida12/Engenharia-de-software/assets/93964438/81b00db8-b9aa-4980-953b-6fd9a9fd488c)
 
 
 ## 👨‍💻 Ferramentas utilizadas 
