@@ -39,5 +39,4 @@ Utilizamos o Miro para a criação do Mockup
 - Gabrielle Almeida (gao2@cin.ufpe.br) - [github](https://github.com/GabrielleAlmeida12)
 - Guilherme Pessoa  (gcpr@cin.ufpe.br) - [github](https://github.com/GuiCPessoa) - **Líder do Time** 
 - Gustavo Queque (grq@cin.ufpe.br) -  [github](https://github.com/gqueque)
-- Newton Neto (ncrn@cin.ufpe.br) -   [github](https://github.com/ncdrneto)
 - Pauline Duarte (pvad@cin.ufpe.br) - [github](https://github.com/PaulineDuarte)
