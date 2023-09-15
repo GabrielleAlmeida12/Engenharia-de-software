@@ -1,0 +1,91 @@
+.background{
+  background-color:#D9D9D9;
+
+  border-radius: 24px;
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+  margin-left: 0px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+}
+
+.background2{
+  background-color:#272728;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+}
+
+.container {
+  
+  position: fixed; /* Defina a posição relativa no contêiner pai */
+  width: 500px; /* Defina uma largura para o contêiner (apenas para exemplo) */
+  height: 100px; /* Defina uma altura para o contêiner (apenas para exemplo) */
+  border: 1px;
+  top:20px;
+  left:20px;
+       /* Adicione uma borda para melhor visualização */
+}
+    
+.googleicon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-image: url('https://img.freepik.com/psd-premium/renderizacao-3d-do-icone-do-google_68185-1080.jpg');
+  background-size: cover;
+}
+
+.item {
+      position: absolute; /* Defina a posição absoluta no item filho */
+      top: 0; /* Alinhe o topo do item com o topo do contêiner */
+      left: 0; /* Alinhe a esquerda do item com a esquerda do contêiner */
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link{
+  text-align: center;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+}
+
+.andamento{
+  text-align: left;
+  font-size: 25px ;
+  font-weight: bold;
+  color: #272728;
+  height: 20px;
+  margin-left: 20px;
+ 
+}
+
+.containerstatic{
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+
+.estatisticas{
+  text-align: left;
+  font-size: 25px ;
+  font-weight: bold;
+  color: #272728;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}

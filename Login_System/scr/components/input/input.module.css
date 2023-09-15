@@ -1,0 +1,23 @@
+.input {
+    padding: 15px 30px;
+    margin-left: 70px;
+    width: 284px;
+    border: 0;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    border-bottom: 2px solid;
+  }
+  
+  .input::placeholder {
+    color: #272728; /* Cor do texto do placeholder */
+    font-size: 14px; /* Tamanho da fonte do placeholder */
+  }
+  
+  @media (max-width: 768px) {
+    .input {
+      margin-left: auto; /* Centralize o Input horizontalmente */
+      margin-right: auto;
+      width: 60%; /* Reduza a largura para 90% da largura da tela */
+    }
+  }

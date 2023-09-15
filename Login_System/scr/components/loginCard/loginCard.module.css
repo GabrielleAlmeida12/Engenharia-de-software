@@ -1,0 +1,30 @@
+.card {
+    background-color: #fff;
+    margin: 12px;
+    width: 420px; /* Largura fixa */
+    height: 95%;
+    position: absolute;
+    top: 0;
+    right: 0; /* Distância da borda direita */
+    padding: 0;
+    border-radius: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .card {
+      width: 60%; /* Reduz a largura para 90% da largura da tela */
+      height: 100%;
+       /* Deixa a altura se ajustar ao conteúdo */
+      right: 5%px; /* Reduz a distância da borda direita */
+    }
+  }
+  
+    .title {
+      margin-top: 20px; /* Ajuste o espaçamento superior */
+      text-align: center;
+      width: auto; /* Deixe a largura se ajustar automaticamente */
+    }
+  
+  

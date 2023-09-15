@@ -1,0 +1,23 @@
+.nav {
+    margin-top: 150px;
+    margin-left: -20px;
+    
+    color: #272728; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para os itens da navegação */
+  .nav li {
+    list-style-type: none;
+    margin-top: 30px;
+    font-size: #272728;
+
+  }
+  
+  /* Estilo para os links */
+  .nav a {
+    text-decoration: none; /* Remova sublinhado dos links */
+    color: #272728;
+    font-weight: bold;
+    padding: 5px 10px; 
+  }
