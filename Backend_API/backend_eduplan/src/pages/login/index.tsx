@@ -70,7 +70,7 @@ function Login() {
               backgroundColor="secondary.500"
               _hover={{ backgroundColor: "secondary.600" }}>Entrar</Button>
             <Link
-              href="#"
+              href="/cadastro"
               color="gray.100">
               Não tem uma conta?<Text as="span" color="secondary.500"> Registre-se</Text>
             </Link>
