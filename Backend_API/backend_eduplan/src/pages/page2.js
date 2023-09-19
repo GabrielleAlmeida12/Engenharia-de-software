@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
-import styles from '../../styles/Page2.module.css'
+import styles from '../../styles/Page2.module.css';
 import Link from 'next/link';
 
 
@@ -41,34 +41,49 @@ const Page2 = () => {
   };
 
   return (
-    <div className={styles.page2Container}>
-      <Link href="/page1">
-        <button className={styles.goBackButton}>Voltar para a Página 1</button>
-      </Link>
-      
-      <h1 className={styles.page2Heading}>Página 2</h1>
-      <label className={styles.page2Label} htmlFor="studyHoursPerDay">
-        Quantas matérias você quer estudar por dia?
-      </label>
+    <div className={styles.background}>
+      <div className={styles.background2}>
+        
 
-      <input
-        className={styles.page2Input}
-        type="text"
-        id="studyHoursPerDay"
-        value={studyHoursPerDay}
-        onChange={(e) => setStudyHoursPerDay(e.target.value)}
-      />
+        <div>
+          
+          <div className={styles.containerinputquest2}>
+            <label htmlFor="studyHoursPerDay">
+              Quantas matérias você quer estudar por dia?
+            </label>
 
-      <label className={styles.page2CheckboxLabel}>
-        <input
-          className={styles.page2Checkbox}
-          type="checkbox"
-          checked={canStudyWeekends}
-          onChange={() => setCanStudyWeekends(!canStudyWeekends)}
-        />
-        Você consegue estudar no final de semana?
-      </label>
-      <button onClick={handleNext}>Próxima Página</button>
+            <input
+              className={styles.inputquest2}
+              type="text"
+              id="studyHoursPerDay"
+              value={studyHoursPerDay}
+              onChange={(e) => setStudyHoursPerDay(e.target.value)}
+            />
+          
+            <label>
+              <input
+                className={styles.page2Checkbox}
+                type="checkbox"
+                checked={canStudyWeekends}
+                onChange={() => setCanStudyWeekends(!canStudyWeekends)}
+              />
+              Você consegue estudar no final de semana?
+            </label>
+
+          </div>
+          <div className={styles.page2Container}>
+          <Link href="/page1">
+            <button className={styles.goBackButton}>Voltar para a Página 1</button>
+          </Link>
+        
+            <button  onClick={handleNext} className={styles.goNextButton}>Próxima Página</button>
+          </div>
+          <div className={styles.containerimg2}>
+            <img src="/imagens/page2.png" alt="Minha Imagem" />
+          </div>
+          
+        </div>
+      </div>
     </div>
   );
 };

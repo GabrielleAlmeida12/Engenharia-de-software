@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Page1.module.css';
 
+
+
 const Page1 = () => {
   const [materia, setMateria] = useState(''); // Atualize o nome da variável para 'materia'
   const [studyEndDate, setStudyEndDate] = useState('');
@@ -33,31 +35,41 @@ const Page1 = () => {
   };
 
   return (
-    <div className={styles.page1Container}>
-      <h1 className={styles.page1Heading}>Página 1</h1>
-      <label className={styles.page1Label} htmlFor="materia">
-        Para quê você vai estudar?
-      </label>
-      <input
-        className={styles.page1Input}
-        type="text"
-        id="materia" // Atualize o atributo 'for' para 'materia'
-        value={materia}
-        onChange={(e) => setMateria(e.target.value)} // Atualize o nome da função para 'setMateria'
-      />
-      <label className={styles.page1Label} htmlFor="studyEndDate">
-        Até quando vai seu plano de estudo?
-      </label>
-      <input
-        className={styles.page1Input}
-        type="date"
-        id="studyEndDate"
-        value={studyEndDate}
-        onChange={(e) => setStudyEndDate(e.target.value)}
-      />
-      <button className={styles.page1Button} onClick={handleNext}>
-        Próxima Página
-      </button>
+    <div className={styles.background}>
+      <div className={styles.background2}>
+      <div className={styles.containerquest}>
+        <div className={styles.containerinputquest}>
+          <label htmlFor="materia">
+            Para quê você vai estudar?
+          </label>
+          <input
+            className={styles.inputquest}
+            type="text"
+            id="materia"
+            value={materia}
+            onChange={(e) => setMateria(e.target.value)}
+          />
+        </div>
+        <div className={styles.containerinputquest}>
+          <label htmlFor="studyEndDate">
+            Até quando vai seu plano de estudo?
+          </label>
+          <input
+            className={styles.inputquest}
+            type="date"
+            id="studyEndDate"
+            value={studyEndDate}
+            onChange={(e) => setStudyEndDate(e.target.value)}
+          />
+        </div>
+        <button className={styles.page1Button} onClick={handleNext}>
+          Próxima Página
+        </button>
+        </div>
+        <div className={styles.containerimg1}>
+          <img src="/imagens/page1.png" alt="Minha Imagem" />
+        </div>
+      </div>
     </div>
   );
 };

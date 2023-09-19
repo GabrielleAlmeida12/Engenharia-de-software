@@ -1,18 +1,52 @@
 /* page3.module.css */
+.background{
+  background-color:  #272728;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+}
+
+.background2{
+  background-color: #D9D9D9;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+  border-radius: 40px;
+}
+
 
 .page3Container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #272728;
+  background-color:#D9D9D9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
   
   .page3Heading {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
+    margin-left: 45px;
+    color: #272728;
   }
   
   .subjectInputContainer {
@@ -21,25 +55,32 @@
     gap: 10px;
   }
   
-  .subjectInputContainer input[type="text"],
-  .subjectInputContainer input[type="number"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+  
   
   .subjectInputContainer button {
-    background-color: #0070f3;
+    padding: 15px 30px;
+    border: 0;
+    background-color:#272728;
     color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
     cursor: pointer;
+    width: 236px;
+    height: 43px;
+    position: absolute;
+    top: 110%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
     transition: background-color 0.3s;
   }
   
   .subjectInputContainer button:hover {
-    background-color: #0052cc;
+    background-color:#272728;
   }
   
   .subjectList {
@@ -75,40 +116,29 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    background-color: #272728;
   }
-  
-  .goBackButton {
-    background-color: #0070f3;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .goBackButton:hover {
-    background-color: #0052cc;
-  }
-  
-  .buttonsContainer button {
-    background-color: #0070f3;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .buttonsContainer button:hover {
-    background-color: #0052cc;
-  }
-  
 
   .error {
     color: red; /* Cor do texto de erro */
     margin-top: 8px; /* Espaço superior para separar a mensagem de erro dos campos de entrada */
     font-size: 14px; /* Tamanho da fonte da mensagem de erro */
+  }
+
+  .inputquest3{
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    Width: 402px;
+    Height: 50px;
+    border: 0;
+    background-color: white;
+    border-radius: 30px;
+    
+  }
+
+  .containerimg3 {
+    position: absolute;
+    bottom: 10%;
+    left:31%;
+    width:1000px;
   }

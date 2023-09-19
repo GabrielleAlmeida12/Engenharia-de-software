@@ -1,35 +1,103 @@
-/* page1.module.css */
+.containerquest {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centralizar verticalmente e horizontalmente */
+  height: 100vh; /* Usar a altura da viewport */
+  width: 100%; /* Usar a largura total da viewport */
+ 
+}
 
-.page1-container {
-    text-align: center;
-    margin: 20px;
-  }
+.containerinputquest {
+  display: flex;
+  flex-direction: column; /* Organize os itens em uma coluna */
+  align-items: center; /* Centralize os itens horizontalmente */
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+.inputquest {
+  padding: 15px 30px;
+  margin-top: 15px;
+  Width: 402px;
+  Height: 50px;
+  border: 0;
+  background-color: white;
+  border-radius: 30px;
+  color: var(--cor-texto-escuro);
   
-  .page1-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
+}
+
+.page1Button {
+  padding: 15px 30px;
+  border: 0;
+  background-color: rgb(47, 46, 46);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 236px;
+  height: 43px;
+  position: absolute;
+  top: 87%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  transition: background-color 0.3s;
+}
+
+
+.page1Button:hover {
+  background-color: rgb(47, 46, 46);
+  color: #fff;
+  border: 2px solid #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra no hover */
+}
+
+.background{
+  background-color:  #272728;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+}
+
+.background2{
+  background-color: #D9D9D9;
+
+  min-height: 100vh;
+  display: flex;
+  width: 1366px;
+
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+  border-radius: 40px;
+}
+
+.container {
   
-  .page1-label {
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .page1-input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .page1-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .page1-button:hover {
-    background-color: #0056b3;
-  }
-  
+  position: fixed; /* Defina a posição relativa no contêiner pai */
+  width: 500px; /* Defina uma largura para o contêiner (apenas para exemplo) */
+  height: 100px; /* Defina uma altura para o contêiner (apenas para exemplo) */
+  border: 1px;
+  top:20px;
+  left:20px;
+       /* Adicione uma borda para melhor visualização */
+}
+
+.containerimg1 {
+  position: absolute;
+  bottom: 10%;
+  left:35%;
+}

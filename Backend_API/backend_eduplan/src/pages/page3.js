@@ -68,41 +68,58 @@ const Page3 = () => {
   };
 
   return (
-    <div className={styles.page3Container}>
-      <h1 className={styles.page3Heading}>Adicionar e Remover Assuntos</h1>
-      <div className={styles.subjectInputContainer}>
-        <input
-          type="text"
-          name="SubjectName"
-          placeholder="Nome do Assunto"
-          value={subjectData.SubjectName}
-          onChange={(e) => setSubjectData({ ...subjectData, SubjectName: e.target.value })}
-        />
-        <input
-          type="number"
-          name="Importance"
-          placeholder="Importância"
-          value={subjectData.Importance}
-          onChange={(e) => setSubjectData({ ...subjectData, Importance: e.target.value })}
-        />
-        <input
-          type="number"
-          name="Difficulty"
-          placeholder="Dificuldade"
-          value={subjectData.Difficulty}
-          onChange={(e) => setSubjectData({ ...subjectData, Difficulty: e.target.value })}
-        />
-        {error && <p className={styles.error}>{error}</p>}
-         <button onClick={handleAddSubject}>Adicionar Assunto</button>
+
+    <div className={styles.background}>
+      <div className={styles.background2}>
+        
+        <div className={styles.page3Container}>
+          <h1 className={styles.page3Heading}>Adicionar e Remover Assuntos</h1>
+          <div className={styles.subjectInputContainer}>
+            <input
+              className={styles.inputquest3}
+              type="text"
+              name="SubjectName"
+              placeholder="Nome do Assunto"
+              value={subjectData.SubjectName}
+              onChange={(e) => setSubjectData({ ...subjectData, SubjectName: e.target.value })}
+            />
+            <input
+              className={styles.inputquest3}
+              type="number"
+              name="Importance"
+              placeholder="Importância"
+              value={subjectData.Importance}
+              onChange={(e) => setSubjectData({ ...subjectData, Importance: e.target.value })}
+            />
+            <input
+              className={styles.inputquest3}
+              type="number"
+              name="Difficulty"
+              placeholder="Dificuldade"
+              value={subjectData.Difficulty}
+              onChange={(e) => setSubjectData({ ...subjectData, Difficulty: e.target.value })}
+            />
+            {error && <p className={styles.error}>{error}</p>}
+            <button className={styles.buttonsContainer} onClick={handleAddSubject}>Adicionar Assunto</button>
+          </div>
+            <ul className={styles.subjectList}>
+              {subjectList.map((subject) => (
+                <li key={subject.SubjectID}>
+                  {subject.SubjectName} - Importance: {subject.Importance} - Difficulty: {subject.Difficulty}
+                  <button onClick={() => handleRemoveSubject(subject.SubjectID)}>Remover</button>
+              </li>
+            ))}
+          </ul>
+
+          
+        </div>
+
       </div>
-      <ul className={styles.subjectList}>
-        {subjectList.map((subject) => (
-          <li key={subject.SubjectID}>
-            {subject.SubjectName} - Importance: {subject.Importance} - Difficulty: {subject.Difficulty}
-            <button onClick={() => handleRemoveSubject(subject.SubjectID)}>Remover</button>
-          </li>
-        ))}
-      </ul>
+      <div className={styles.containerimg3}>
+            <img src="/imagens/page3.png" alt="Minha Imagem" />
+      </div>
+
+      
     </div>
   );
 };
