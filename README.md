@@ -1,32 +1,28 @@
-# Edu Plan
+# EduPlan
 
 ## O Projeto faz parte da avaliação principal da **IF977- Engenharia de Software**
 
 ## 📑 Descrição:
 O EduPlan é um sistema de assistência à construção de planos de estudos personalizados e interativos. Ele foi desenvolvido para auxiliar estudantes em diferentes níveis educacionais a criar planos de estudos adaptados às suas necessidades individuais, metas de aprendizado e estilo de aprendizagem, Através de uma plataforma intuitiva, os usuários podem definir seus objetivos, identificar suas habilidades e receber recomendações personalizadas de cursos e materiais educacionais relevantes. Com o EduPlan, os estudantes podem acompanhar seu progresso, interagir com outros estudantes e mentores e se envolver em um ambiente gamificado que torna o processo de aprendizado mais atraente e motivador. O EduPlan visa capacitar os estudantes a alcançarem seu potencial máximo de aprendizado e sucesso acadêmico, proporcionando-lhes uma ferramenta poderosa para aprimorar suas habilidades e conhecimentos de maneira eficiente e eficaz.
 
-## Características que podem ser incluídas no sistema:
-#### PERFIL DO ESTUDANTE: 
-O sistema deve permitir que os estudantes criem um perfil personalizado com informações sobre seu nível educacional atual, interesses, pontos fortes, pontos fracos e metas de aprendizado. Isso ajudará a criar um plano de estudos personalizado.
-#### DEFINIÇÃO DE METAS E PRAZOS: 
-Os estudantes devem ser capazes de definir metas de aprendizado e prazos realistas. O sistema pode oferecer orientações sobre a viabilidade das metas e ajudar a ajustá-las para que sejam alcançáveis.
-#### CATÁLOGO (SUGESTÕES) DE MATERIAIS: 
-Sugerir recursos de aprendizado baseados nas preferências do usuário (vídeos, livros, artigos etc.) para que os estudantes possam escolher o conteúdo mais relevante para seus objetivos.
-#### ACOMPANHAMENTO DE PROGRESSO: 
-A plataforma deve rastrear o progresso do estudante, incluindo o tempo gasto em cada tarefa e o desempenho em avaliações, para oferecer feedbacks e ajustar o plano de estudos conforme necessário.
-#### FLEXIBILIDADE E ADAPTAÇÃO: 
-O sistema deve ser flexível para se adaptar às mudanças nas metas e preferências do estudante. A medida que novos objetivos são definidos ou habilidades são adquiridas, o plano de estudos pode ser ajustado dinamicamente.
+
+## &#x1F4C3; Vídeo apresentação do projeto :
+[Vídeo de apresentação do projeto] 
 
 
-
-
-## &#x1F4C3; Mockup Lo-Fi :
-Utilizamos o Miro para a criação do Mockup
-![Mockup LoFi EduPlan](https://github.com/GabrielleAlmeida12/Engenharia-de-software/assets/93964438/81b00db8-b9aa-4980-953b-6fd9a9fd488c)
-
+https://github.com/GabrielleAlmeida12/Engenharia-de-software/assets/93964438/3e5525aa-c5c1-494d-9d97-10e3ad1403ab
 
 ## 👨‍💻 Ferramentas utilizadas 
 
+<div align="center" style="display: inline_block"><br>
+  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
+  <img align="center" alt="Nodejs" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
+  <img align="center" alt="Mongodb" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+ <img align="center" alt="Figma" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
+</div>
 
 ## 👨‍🏫 Professor Responsável
   [Vinicius Cardoso Garcia](https://viniciusgarcia.me/) (vcg@cin.ufpe.br)
