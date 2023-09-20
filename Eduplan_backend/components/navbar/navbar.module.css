@@ -1,0 +1,80 @@
+.nav {
+    margin-top: 150px;
+    margin-left: -20px;
+    color: #272728; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+
+  /* Estilo para os itens da navegação */
+  .nav li {
+    list-style-type: none;
+    margin-top: 30px;
+
+  }
+  
+  /* Estilo para os links */
+  .nav a {
+    text-decoration: none; /* Remova sublinhado dos links */
+    color: #272728;
+    font-weight: bold;
+    padding: 5px 10px; 
+  }
+
+  .navwhite {
+    margin: 5px;
+    font-size: 16px;
+    color: #272728;
+    margin-left: 20px;
+    border-radius: 24px;
+    background-color: white;
+    width: 15%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column; /* Empilhar os elementos verticalmente */
+    align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navwhite {
+      font-size: 12px; /* Tamanho de fonte reduzido para telas menores */
+    }
+  }
+  
+  .logonav {
+    width: 100%; /* Ocupar 100% da largura do container */
+    text-align: center; /* Centralizar horizontalmente */
+  }
+  
+  .logonav img {
+    width: 100px;
+    margin-top: 20px; /* Adicionado espaço acima da imagem */
+    margin-left: 50%;
+    transform: translateX(-50%); /* Centralizar horizontalmente */
+  }
+  
+  .containernav {
+    display: flex;
+    flex-direction: column; /* Empilhar os itens verticalmente */
+    align-items: flex-start; /* Justificar à esquerda */
+    margin-left: 5px; /* Adicionar margem esquerda para espaçamento */
+    margin-top: 75%;
+  }
+  
+  .containernav ul {
+    list-style-type: none;
+    padding: 0; /* Remover o padding padrão da lista */
+  }
+  
+  .containernav li {
+    margin-top: 10px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .containernav a {
+    text-decoration: none;
+    color: #272728;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: block; /* Certificar-se de que cada item do menu ocupe uma linha inteira */
+  }
+  

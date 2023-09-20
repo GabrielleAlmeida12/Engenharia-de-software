@@ -1,0 +1,166 @@
+.background {
+  background-color: #272728;
+  min-height: 100vh;
+  display: flex;
+  width: 100%; /* Alterado para 100% */
+  align-items: center;
+  justify-content: center;
+  color: #272728;
+}
+
+.background2 {
+  position: fixed;
+  background-color: #D9D9D9;
+  min-height: 100vh;
+  display: flex;
+  width: 100%; /* Alterado para 100% */
+  align-items: center;
+  color: #272728;
+  border-radius: 40px;
+}
+
+
+
+.containerquest {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Usar a altura da viewport */
+  width: 70%; /* Usar a largura total da viewport */
+}
+
+/* Adicione um media query para telas menores */
+@media (max-width: 768px) {
+  .containerquest {
+    font-size: 16px; /* Reduza o tamanho da fonte para telas menores */
+  }
+}
+
+
+.containerinputquest {
+  display: flex;
+  flex-direction: column; /* Organize os itens em uma coluna */
+  align-items: center; /* Centralize os itens horizontalmente */
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+@media (max-width: 768px) {
+  .containerinputquest {
+    font-size: 14px;
+    left: 60%;
+
+  }
+}
+
+.inputquest {
+  padding: 15px 30px;
+  margin-top: 15px;
+  Width: 402px;
+  Height: 50px;
+  border: 0;
+  background-color: white;
+  border-radius: 30px;
+  
+}
+
+/* Estilos para telas menores usando media query */
+@media (max-width: 768px) {
+  .inputquest {
+    
+    width: 100%; /* Largura maior para telas menores */
+    font-size: 14px; /* Tamanho de fonte menor para telas menores */
+  }
+}
+
+.page1Button {
+  padding: 15px 30px;
+  border: 0;
+  background-color: rgb(47, 46, 46);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 220px;
+  height: 43px;
+  position: absolute;
+  top: 87%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  transition: background-color 0.3s;
+}
+
+
+.page1Button:hover {
+  background-color: rgb(47, 46, 46);
+  color: #fff;
+  border: 2px solid #333;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra no hover */
+  
+}
+
+@media (max-width: 1300px) {
+  .page1Button {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 72%;
+    left: 52%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page1Button {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 70%;
+    left: 55%;
+  }
+}
+
+
+
+
+.container {
+  
+  position: fixed; /* Defina a posição relativa no contêiner pai */
+  width: 500px; /* Defina uma largura para o contêiner (apenas para exemplo) */
+  height: 100px; /* Defina uma altura para o contêiner (apenas para exemplo) */
+  border: 1px;
+  top:20px;
+  left:20px;
+       /* Adicione uma borda para melhor visualização */
+}
+
+.containerimg1 {
+  position: absolute;
+  bottom: 10%;
+  left:36%;
+}
+
+@media screen and (max-width: 1300px) {
+  .containerimg1 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 33%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerimg1 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 25%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
+}
