@@ -58,7 +58,7 @@ function Login() {
               borderColor="black" // Adiciona uma borda preta
               borderWidth="0 0 2px 0" // Apenas a parte inferior tem uma borda preta sólida de 2px
               backgroundColor="gray.50"
-              color="gray.100"
+              color="gray.900"
               rounded="full" // Define um raio de borda maior (circular)
             />
           </InputGroup>
@@ -73,7 +73,7 @@ function Login() {
               borderColor="black" // Adiciona uma borda preta
               borderWidth="0 0 2px 0" // Apenas a parte inferior tem uma borda preta sólida de 2px
               backgroundColor="gray.50"
-              color="gray.100"
+              color="gray.900"
               rounded="full"/>
           </InputGroup>
 

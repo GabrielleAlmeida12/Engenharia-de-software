@@ -55,7 +55,7 @@ function Cadastro() {
               borderColor="black"
               borderWidth="0 0 2px 0"
               backgroundColor="gray.50"
-              color="gray.100"
+              color="gray.900"
               rounded="full"
             />
           </InputGroup>
@@ -72,7 +72,7 @@ function Cadastro() {
               borderColor="black"
               borderWidth="0 0 2px 0"
               backgroundColor="gray.50"
-              color="gray.100"
+              color="gray.900"
               rounded="full"
             />
           </InputGroup>
@@ -88,7 +88,7 @@ function Cadastro() {
               borderColor="black"
               borderWidth="0 0 2px 0"
               backgroundColor="gray.50"
-              color="gray.100"
+              color="gray.900"
               rounded="full"
             />
           </InputGroup>
