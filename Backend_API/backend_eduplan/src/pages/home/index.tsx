@@ -16,8 +16,10 @@ function Home() {
       height="100vh"
       flexDirection="column"
       alignItems="center"
-      justifyContent="center">
-      <Text color="gray.400" fontSize="md">Welcome abord</Text>
+      justifyContent="center"
+      bg="gray.300">>
+      
+      <Text color="gray.900" fontSize="md">Welcome abord</Text>
       <Flex marginTop="1rem" alignItems="center">
         {session?.user?.image && (
         <Image
@@ -29,7 +31,7 @@ function Home() {
           marginRight="1rem" />
 
         )}
-        <Text color="gray.100" marginTop="0.5rem" fontSize="xl">{session?.user?.name}</Text>
+        <Text color="gray.900" marginTop="0.5rem" fontSize="xl">{session?.user?.name}</Text>
       </Flex>
 
       <Button
@@ -37,7 +39,8 @@ function Home() {
         marginTop="2rem"
         marginBottom="1rem"
         width="256px"
-        backgroundColor="secondary.500"
+        backgroundColor="gray.900"
+        color="white"
         onClick={() => signOut()}>Sair</Button>
     </Flex>
   )

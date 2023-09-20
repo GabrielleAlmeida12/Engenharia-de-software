@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Input, InputGroup, InputLeftElement, Link, Text, useTheme } from "@chakra-ui/react";
+import { Box, Button, Flex, Input, InputGroup, InputLeftElement, Link, Text, useTheme, Image } from "@chakra-ui/react";
 import { FiGithub, FiLock, FiUser } from 'react-icons/fi';
 import { signIn } from 'next-auth/react';
 import { getSession } from 'next-auth/react';
@@ -22,13 +22,25 @@ function Login() {
       width="100%"
       height="100vh"
       alignItems="center"
-      justifyContent="center">
+      justifyContent="center"
+      bg="gray.300">
       <form onSubmit={onSubmit}>
+
+    <Image
+      src="/imagens/Logo.png"
+      alt="Logo da sua aplicação"
+      width="130px"
+      height="auto"
+      marginBottom="2rem"
+      position="absolute"
+      top="2rem"
+      left="2rem"
+    />
         <Box
           width="428px"
         >
           <Text
-            color="gray.100"
+            color="gray.900"
             fontSize="xl"
             textAlign="center"
             fontFamily="heading"
@@ -43,9 +55,12 @@ function Login() {
             <Input
               placeholder="Email"
               marginBottom="1rem"
-              borderColor="gray.700"
-              backgroundColor="gray.700"
-              color="gray.100" />
+              borderColor="black" // Adiciona uma borda preta
+              borderWidth="0 0 2px 0" // Apenas a parte inferior tem uma borda preta sólida de 2px
+              backgroundColor="gray.50"
+              color="gray.100"
+              rounded="full" // Define um raio de borda maior (circular)
+            />
           </InputGroup>
           <InputGroup>
             <InputLeftElement
@@ -55,10 +70,11 @@ function Login() {
             </InputLeftElement>
             <Input
               placeholder="Senha"
-              borderColor="gray.700"
-              backgroundColor="gray.700"
+              borderColor="black" // Adiciona uma borda preta
+              borderWidth="0 0 2px 0" // Apenas a parte inferior tem uma borda preta sólida de 2px
+              backgroundColor="gray.50"
               color="gray.100"
-              type="password" />
+              rounded="full"/>
           </InputGroup>
 
           <Flex direction="column" alignItems="center">
@@ -67,22 +83,23 @@ function Login() {
               marginTop="2rem"
               marginBottom="1rem"
               width="100%"
-              backgroundColor="secondary.500"
-              _hover={{ backgroundColor: "secondary.600" }}>Entrar</Button>
+              backgroundColor="gray.900"
+              color="gray.50"
+              _hover={{ backgroundColor: "gray.700" }}>Entrar</Button>
             <Link
               href="/cadastro"
-              color="gray.100">
-              Não tem uma conta?<Text as="span" color="secondary.500"> Registre-se</Text>
+              color="gray.900">
+              Não tem uma conta?<Text as="span" color="gray.900"> Registre-se</Text>
             </Link>
           </Flex>
 
           <Flex marginTop="2rem" alignItems="center" justifyContent="center">
             <Text
-              color="secondary.500"
+              color="gray.900"
               textAlign="center"
               marginRight="1rem">Ou entre com</Text>
             <Button
-              backgroundColor="gray.600"
+              backgroundColor="gray.900"
               leftIcon={<FiGithub color={theme.colors.gray['100']} />}
               color={theme.colors.gray['100']}
               _hover={{ backgroundColor: "gray.700" }}

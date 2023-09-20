@@ -1,0 +1,98 @@
+
+
+
+.background {
+    background-color: #272728;
+    min-height: 100vh;
+    display: flex;
+    width: 100%; /* Alterado para 100% */
+    align-items: center;
+    justify-content: center;
+    color: #272728;
+  }
+  
+  .background2 {
+    position: fixed;
+    background-color: #D9D9D9;
+    min-height: 100vh;
+    display: flex;
+    width: 100%; /* Alterado para 100% */
+    align-items: center;
+    color: #272728;
+    border-radius: 40px;
+  }
+  
+  .containerquest {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Usar a altura da viewport */
+    width: 70%; /* Usar a largura total da viewport */
+  }
+  
+  /* Adicione um media query para telas menores */
+  @media (max-width: 768px) {
+    .containerquest {
+      font-size: 16px; /* Reduza o tamanho da fonte para telas menores */
+    }
+  }
+  
+  
+  .containerinputquest {
+    display: flex;
+    flex-direction: column; /* Organize os itens em uma coluna */
+    align-items: center; /* Centralize os itens horizontalmente */
+    margin-bottom: 20px; /* Espaçamento entre os itens */
+  }
+  
+  @media (max-width: 768px) {
+    .containerinputquest {
+      font-size: 14px;
+      left: 60%;
+  
+    }
+  }
+
+  .activityContainer {
+    display: flex;
+    margin-left: 15%;
+    height: 90vh; 
+    width: 100vh;
+   
+    background-color: white; /* Cor de fundo do container de atividades */
+    border-radius: 30px;
+  }
+
+  .activityTitle{
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin: 10%; /* Espaçamento à direita do título */
+    font-weight: bold;
+  }
+  
+  /* Classe para estilizar o botão */
+  .activityButton {
+    font-size: 30px; /* Tamanho da fonte do botão */
+    width: 60px;
+    height: 60px;
+    background-color: #272728; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 8px 16px; /* Espaçamento interno do botão */
+    border-radius: 8px; /* Arredonda as bordas do botão */
+    cursor: pointer; /* Transforma o cursor em uma mãozinha quando passar o mouse */
+    position: absolute; /* Define o botão como absolute */
+    top:15%; /* Ajusta a posição vertical do botão */
+    right: 30%;
+  }
+
+  
+  
+  
+  
+  
+  
+  
