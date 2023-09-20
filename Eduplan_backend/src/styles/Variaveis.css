@@ -1,0 +1,14 @@
+:root {
+    --cor-de-fundo: #272728;
+    --container-de-fundo: #D9D9D9; 
+    --cor-texto: #ffffff;
+    --cor-botao-escuro:rgb(47, 46, 46);
+    --cor-botao-claro: #fff;
+    --tamanho-fonte-titulos: 20px;
+    --tamanho-fonte-corpo: 14px;
+    --tamanho-fonte-button: 14px;
+    --cor-input: #fff;
+    --cor-texto-escuro: #f4f4f9;
+    --cor-texto-claro: #fff;
+  }
+  
