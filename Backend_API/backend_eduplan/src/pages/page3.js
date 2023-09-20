@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import styles from '../../styles/Page3.module.css'; // Importe o arquivo CSS Module
+import NavbarWhite from '../../components/navbar/navbarbranca';
 
 const Page3 = () => {
   const [subjectData, setSubjectData] = useState({
@@ -71,8 +72,13 @@ const Page3 = () => {
 
     <div className={styles.background}>
       <div className={styles.background2}>
+
+      <NavbarWhite>
+          
+          </NavbarWhite>
         
         <div className={styles.page3Container}>
+  
           <h1 className={styles.page3Heading}>Adicionar e Remover Assuntos</h1>
           <div className={styles.subjectInputContainer}>
             <input
@@ -114,13 +120,14 @@ const Page3 = () => {
           
         </div>
 
-      </div>
+      
       <div className={styles.containerimg3}>
             <img src="/imagens/page3.png" alt="Minha Imagem" />
       </div>
 
-      
     </div>
+  </div>  
+    
   );
 };
 

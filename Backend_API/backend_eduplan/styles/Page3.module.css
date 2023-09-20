@@ -1,11 +1,9 @@
 /* page3.module.css */
 .background{
   background-color:  #272728;
-
   min-height: 100vh;
   display: flex;
   width: 1366px;
-
   align-items: center;
   justify-content: center;
   color: #272728;
@@ -13,17 +11,14 @@
 
 .background2{
   background-color: #D9D9D9;
-
   min-height: 100vh;
   display: flex;
   width: 1366px;
-
   align-items: center;
-  justify-content: center;
+  
   color: #272728;
   border-radius: 40px;
 }
-
 
 .page3Container {
   max-width: 600px;

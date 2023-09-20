@@ -76,7 +76,7 @@
     height: 43px;
     position: absolute;
     top: 87%;
-    left: 25%;
+    left: 25.5%;
     transform: translate(-50%, -50%);
     text-align: center;
     display: flex;
@@ -87,9 +87,10 @@
   
   
   .goBackButton:hover {
-    background-color: #D9D9D9;
-    color: #333; /* Define a cor de fundo quando o mouse está sobre o botão */
-    border: 2px solid #333;;
+    background-color: rgb(47, 46, 46);
+    color: #fff;
+    border: 2px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   
 

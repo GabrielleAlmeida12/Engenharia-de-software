@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Page1.module.css';
+import NavbarWhite from '../../components/navbar/navbarbranca';
 
 
 
@@ -35,8 +36,14 @@ const Page1 = () => {
   };
 
   return (
+
+    
     <div className={styles.background}>
       <div className={styles.background2}>
+
+        <NavbarWhite>
+          <img src="/imagens/Logo.png" alt="Minha Imagem" />
+        </NavbarWhite>
       <div className={styles.containerquest}>
         <div className={styles.containerinputquest}>
           <label htmlFor="materia">

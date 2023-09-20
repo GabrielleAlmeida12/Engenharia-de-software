@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Page2.module.css';
 import Link from 'next/link';
+import NavbarWhite from '../../components/navbar/navbarbranca';
 
 
 const Page2 = () => {
@@ -43,9 +44,14 @@ const Page2 = () => {
   return (
     <div className={styles.background}>
       <div className={styles.background2}>
+
+      <NavbarWhite>
+          
+          </NavbarWhite>
+      
         
 
-        <div>
+        
           
           <div className={styles.containerinputquest2}>
             <label htmlFor="studyHoursPerDay">
@@ -84,7 +90,7 @@ const Page2 = () => {
           
         </div>
       </div>
-    </div>
+    
   );
 };
 
