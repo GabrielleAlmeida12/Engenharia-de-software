@@ -45,13 +45,9 @@ const Page2 = () => {
     <div className={styles.background}>
       <div className={styles.background2}>
 
-      <NavbarWhite>
+          <NavbarWhite>
           
           </NavbarWhite>
-      
-        
-
-        
           
           <div className={styles.containerinputquest2}>
             <label htmlFor="studyHoursPerDay">

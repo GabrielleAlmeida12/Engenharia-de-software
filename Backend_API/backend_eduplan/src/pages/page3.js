@@ -73,7 +73,7 @@ const Page3 = () => {
     <div className={styles.background}>
       <div className={styles.background2}>
 
-      <NavbarWhite>
+          <NavbarWhite>
           
           </NavbarWhite>
         
