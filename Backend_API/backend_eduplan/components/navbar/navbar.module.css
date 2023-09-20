@@ -23,6 +23,7 @@
 
   .navwhite {
     margin: 5px;
+    font-size: 16px;
     color: #272728;
     margin-left: 20px;
     border-radius: 24px;
@@ -32,6 +33,12 @@
     display: flex;
     flex-direction: column; /* Empilhar os elementos verticalmente */
     align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navwhite {
+      font-size: 12px; /* Tamanho de fonte reduzido para telas menores */
+    }
   }
   
   .logonav {

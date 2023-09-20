@@ -9,6 +9,7 @@
 }
 
 .background2 {
+  position: fixed;
   background-color: #D9D9D9;
   min-height: 100vh;
   display: flex;
@@ -17,6 +18,7 @@
   color: #272728;
   border-radius: 40px;
 }
+
 
 
 .containerquest {
@@ -46,6 +48,14 @@
   margin-bottom: 20px; /* Espaçamento entre os itens */
 }
 
+@media (max-width: 768px) {
+  .containerinputquest {
+    font-size: 14px;
+    left: 60%;
+
+  }
+}
+
 .inputquest {
   padding: 15px 30px;
   margin-top: 15px;
@@ -54,14 +64,13 @@
   border: 0;
   background-color: white;
   border-radius: 30px;
-  color: var(--cor-texto-escuro);
   
 }
 
 /* Estilos para telas menores usando media query */
 @media (max-width: 768px) {
   .inputquest {
-    padding: 2% 4%; /* Ajuste de padding para telas menores */
+    
     width: 100%; /* Largura maior para telas menores */
     font-size: 14px; /* Tamanho de fonte menor para telas menores */
   }
@@ -98,6 +107,17 @@
   
 }
 
+@media (max-width: 1300px) {
+  .page1Button {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 72%;
+    left: 52%;
+  }
+}
+
 @media (max-width: 768px) {
   .page1Button {
     width: 160px; /* Reduza a largura do botão para telas menores */
@@ -108,6 +128,8 @@
     left: 55%;
   }
 }
+
+
 
 
 .container {
@@ -125,4 +147,20 @@
   position: absolute;
   bottom: 10%;
   left:36%;
+}
+
+@media screen and (max-width: 1300px) {
+  .containerimg1 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 33%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerimg1 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 25%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
 }

@@ -10,6 +10,7 @@
 }
 
 .background2 {
+  position: fixed;
   background-color: #D9D9D9;
   min-height: 100vh;
   display: flex;
@@ -124,13 +125,25 @@
     height: 43px;
     position: absolute;
     top: 87%;
-    left: 74%;
+    left: 76%;
     transform: translate(-50%, -50%);
     text-align: center;
     display: flex;
     justify-content: center; /* Centralizar horizontalmente */
     align-items: center; /* Centralizar verticalmente */
     transition: background-color 0.3s;
+}
+
+@media (max-width: 1300px) {
+  .goBackButton {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 80%;
+    left: 50%;
+
+}
 }
 
 @media (max-width: 768px) {
@@ -154,15 +167,27 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
 
-  @media (max-width: 768px) {
-    .goNextButton {
-      width: 160px; /* Reduza a largura do botão para telas menores */
-      height: 36px; /* Reduza a altura do botão para telas menores */
-      font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
-      padding: 8px 16px; /* Reduza o preenchimento para telas menores */
-      top: 70%;
-      left: 60%;
-  
+@media (max-width: 1300px) {
+  .goNextButton {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 70%;
+    left: 50%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .goNextButton {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 70%;
+    left: 60%;
+
   }
 }
 
@@ -229,9 +254,26 @@
   .containerimg2 {
     position: absolute;
     bottom: 10%;
-    left:31%;
+    left:36%;
   }
 
+@media screen and (max-width: 1300px) {
+  .containerimg2 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 33%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
+}
+  
+  
+
+@media screen and (max-width: 768px) {
+  .containerimg2 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 25%; /* Ajuste conforme necessário */
+    width: 70%;
+    }
+  }
   .containerquest {
     font-size: 20px;
     font-weight: bold;

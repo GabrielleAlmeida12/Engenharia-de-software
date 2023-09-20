@@ -9,6 +9,7 @@
 }
 
 .background2 {
+  position: fixed;
   background-color: #D9D9D9;
   min-height: 100vh;
   display: flex;
@@ -32,6 +33,15 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1300px) {
+  .page3Container {
+    max-width:  60%; /* Reduza a largura máxima para telas menores */
+    padding: 10px; /* Reduza o preenchimento para telas menores */
+    font-size: 16px; /* Ajuste o tamanho da fonte para telas menores */
+    left: 50%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -137,7 +147,23 @@
 .containerimg3 {
   position: absolute;
   bottom: 10%;
-  left: 31%;
+  left: 36%;
+}
+
+@media screen and (max-width: 1300px) {
+  .containerimg3 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 33%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .containerimg3 {
+    bottom: 10%; /* Ajuste conforme necessário */
+    left: 25%; /* Ajuste conforme necessário */
+    width: 70%;
+  }
 }
 
 .goBackButton {
