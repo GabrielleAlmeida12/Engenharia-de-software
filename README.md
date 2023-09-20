@@ -16,10 +16,7 @@ Sugerir recursos de aprendizado baseados nas preferências do usuário (vídeos,
 A plataforma deve rastrear o progresso do estudante, incluindo o tempo gasto em cada tarefa e o desempenho em avaliações, para oferecer feedbacks e ajustar o plano de estudos conforme necessário.
 #### FLEXIBILIDADE E ADAPTAÇÃO: 
 O sistema deve ser flexível para se adaptar às mudanças nas metas e preferências do estudante. A medida que novos objetivos são definidos ou habilidades são adquiridas, o plano de estudos pode ser ajustado dinamicamente.
-#### GAMIFICAÇÃO: 
-Elementos de gamificação, como recompensas, níveis e conquistas, podem ser incorporados para tornar o processo de estudo mais envolvente e motivador.
-#### NOTIFICAÇÃO E LEMBRETES: 
-O sistema pode enviar notificações e lembretes para incentivar o estudante a manter o foco no plano de estudos, acompanhando o progresso e cumprindo prazos.
+
 
 
 
