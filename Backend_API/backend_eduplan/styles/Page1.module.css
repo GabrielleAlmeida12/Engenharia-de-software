@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh; /* Usar a altura da viewport */
-  width: 100%; /* Usar a largura total da viewport */
+  width: 70%; /* Usar a largura total da viewport */
 }
 
 /* Adicione um media query para telas menores */
@@ -95,6 +95,18 @@
   color: #fff;
   border: 2px solid #333;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra no hover */
+  
+}
+
+@media (max-width: 768px) {
+  .page1Button {
+    width: 160px; /* Reduza a largura do botão para telas menores */
+    height: 36px; /* Reduza a altura do botão para telas menores */
+    font-size: 12px; /* Reduza o tamanho da fonte para telas menores */
+    padding: 8px 16px; /* Reduza o preenchimento para telas menores */
+    top: 70%;
+    left: 55%;
+  }
 }
 
 

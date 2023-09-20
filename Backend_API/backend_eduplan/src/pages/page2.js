@@ -48,6 +48,8 @@ const Page2 = () => {
           <NavbarWhite>
           
           </NavbarWhite>
+
+          <div className={styles.containerquest}>
           
           <div className={styles.containerinputquest2}>
             <label htmlFor="studyHoursPerDay">
@@ -72,6 +74,7 @@ const Page2 = () => {
               Você consegue estudar no final de semana?
             </label>
 
+          </div>
           </div>
           <div className={styles.page2Container}>
           <Link href="/page1">
